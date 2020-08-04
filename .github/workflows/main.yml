@@ -21,6 +21,5 @@ jobs:
       run: |
         ls -al
         aws s3 cp \
-          --recursive \
           --region ap-northeast-2 \
-          ./ s3://ServerlessProject
+          ./ s3://ServerlessProject/
