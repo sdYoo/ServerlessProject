@@ -22,4 +22,4 @@ jobs:
         ls -al
         pwd
         aws s3 cp \
-          index.html s3://sjh-serverless-main-bucket
+          ./ s3://sjh-serverless-main-bucket
