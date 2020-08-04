@@ -1,5 +1,5 @@
 {
-	"name": "express-upload-amazon-s3",
+	"name": "ServerlessProject",
 	"version": "0.0.4",
 	"scripts": {
 		"start": "node app.js"
