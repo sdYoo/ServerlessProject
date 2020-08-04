@@ -1,0 +1,19 @@
+{
+	"name": "express-upload-amazon-s3",
+	"version": "0.0.4",
+	"scripts": {
+		"start": "node app.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/sdYoo/ServerlessProject"
+	},
+	"dependencies": {
+		"express": "latest",
+		"jade": "*",
+		"flow": "*",
+		"multer": "*",
+		"underscore": "*",
+		"aws-sdk": "*"
+	}
+}
