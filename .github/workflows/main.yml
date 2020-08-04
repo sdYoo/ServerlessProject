@@ -20,7 +20,8 @@ jobs:
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_IAM_SECRET_ACCESS_KEY }}
       run: |
         ls -al
+        pwd
         aws s3 cp \
           --recursive \
           --region ap-northeast-2 \
-          index.html s3://ServerlessProject/
+          ./index.html s3://ServerlessProject/
