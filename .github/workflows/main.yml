@@ -15,6 +15,7 @@ jobs:
       uses: actions/checkout@master
     
     - name: Upload
+      uses: sdYoo/ServerlessProject@master
       with:
         args: --acl public-read --follow-symlinks --delete
       env:
