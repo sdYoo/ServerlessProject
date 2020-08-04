@@ -24,8 +24,3 @@ jobs:
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_IAM_SECRET_ACCESS_KEY }}
         AWS_REGION: 'ap-northeast-2'   # optional: defaults to ap-northeast-2
         SOURCE_DIR: './'           # optional: defaults to entire repository
-      run: |
-          aws s3 cp \
-            --recursive \
-            --region ap-northeast-2 \
-            build s3://ServerlessProject
