@@ -22,5 +22,5 @@ jobs:
         ls -al
         pwd
         aws s3 cp \
-          -- recursive \
+          --recursive \
           ServerlessProject s3://sjh-serverless-main-bucket
