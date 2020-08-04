@@ -24,4 +24,4 @@ jobs:
         aws s3 cp \
           --recursive \
           --region ap-northeast-2 \
-          ./index.html s3://ServerlessProject/
+          /home/runner/work/ServerlessProject/ServerlessProject/index.html s3://ServerlessProject/
