@@ -18,9 +18,9 @@ jobs:
       - uses: actions/checkout@master
       
       - name: Upload file to bucket
-      uses: zdurham/s3-upload-github-action@master
+      - uses: sdYoo/ServerlessProject@master
       with:
-        args: --acl public-read
+        args: --acl public-read --follow-symlinks --delete
       env:
         AWS_S3_BUCKET: sjh-serverless-main-bucket
         AWS_ACCESS_KEY_ID: ${{ secrets. AWS_IAM_ACCESS_KEY_ID }}
