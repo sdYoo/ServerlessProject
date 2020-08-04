@@ -23,4 +23,4 @@ jobs:
         pwd
         aws s3 cp \
           --recursive \
-          ./ServerlessProject s3://sjh-serverless-main-bucket
+          /home/runner/work/ServerlessProject/ServerlessProject s3://sjh-serverless-main-bucket
