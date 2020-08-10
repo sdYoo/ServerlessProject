@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    var ENDPOINT = ' https://cdrcwk0t2l.execute-api.ap-northeast-2.amazonaws.com/dev-web/serverless/'
+    var ENDPOINT = ' https://cdrcwk0t2l.execute-api.ap-northeast-2.amazonaws.com/dev-web/serverless/users'
     var CF = 'd2rzy20zem56os.cloudfront.net'
     var dialog = document.querySelector('dialog');
     var showModalButton = $('.show-modal');
@@ -26,7 +26,7 @@ $(document).ready(function(){
 
     function load_data(){
         $.ajax({
-            url: ENDPOINT +'?user_id=*',
+            url: ENDPOINT +'/*',
             method: 'get',
             success: function(r){
                 var html = '';
