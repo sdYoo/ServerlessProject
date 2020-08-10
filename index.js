@@ -12,6 +12,7 @@ $(document).ready(function(){
         e.preventDefault();
         var user = $(this).data('user');
         var type = $(this).data('type');
+        alert(CF+"/qrcodes/"+user+"/"+type+"/qrcode.jpg");
         $('#showBox').html('<img style="width:100%" src="'+CF+'/qrcodes/'+user+'/'+type+'/qrcode.jpg"/>');
         dialog.showModal();
     });
