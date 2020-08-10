@@ -1,6 +1,6 @@
 $(document).ready(function(){
-    var ENDPOINT = '{apt-gateway:endpoint}'
-    var CF = '{cloud-front:endpoint}'
+    var ENDPOINT = ' https://cdrcwk0t2l.execute-api.ap-northeast-2.amazonaws.com/dev-web/serverless/'
+    var CF = 'd2rzy20zem56os.cloudfront.net'
     var dialog = document.querySelector('dialog');
     var showModalButton = $('.show-modal');
     
@@ -87,6 +87,6 @@ $(document).ready(function(){
             }
         });
     });
-    
+
     load_data();
 })
